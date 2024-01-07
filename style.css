@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: wheat;
+}
+
+.heading {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 184, 86);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.BigDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.mainTAB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30vw;
+    height: auto;
+    background: white;
+    backdrop-filter: blur(80px);
+    box-shadow:
+        2.1px 3.6px 2.2px rgba(0, 0, 0, 0.053),
+        5.1px 8.6px 5.3px rgba(0, 0, 0, 0.077),
+        9.6px 16.3px 10px rgba(0, 0, 0, 0.095),
+        17.2px 29px 17.9px rgba(0, 0, 0, 0.113),
+        32.2px 54.3px 33.4px rgba(0, 0, 0, 0.137),
+        77px 130px 80px rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+.inputDiv {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    width: 20em;
+    padding: .5em .5em;
+    border-radius: 30px;
+    background: wheat;
+}
+
+.inputDiv input {
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    padding: 0 1em;
+    outline: none;
+
+}
+
+.inputDiv button {
+    text-decoration: none;
+    color: white;
+    background: #82f606;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0 1em;
+    box-shadow:
+        2.1px 3.6px 2.2px rgba(0, 0, 0, 0.053),
+        5.1px 8.6px 5.3px rgba(0, 0, 0, 0.077),
+        9.6px 16.3px 10px rgba(0, 0, 0, 0.095),
+        17.2px 29px 17.9px rgba(0, 0, 0, 0.113),
+        32.2px 54.3px 33.4px rgba(0, 0, 0, 0.137),
+        77px 130px 80px rgba(0, 0, 0, 0.19);
+}
+
+.inputDiv button:hover {
+    background: #66bf06;
+
+}
+
+.ListDiv {
+    border-radius: 30px;
+    background: wheat;
+    height: auto;
+    width: 18em;
+    padding: 1em;
+    margin: 1.5em 0em;
+    margin-bottom: 2em;
+}
+
+.ListDiv ul li {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background: white;
+    border-radius: 30px;
+    margin: 1em 0em;
+    box-shadow:
+        2.1px 3.6px 2.2px rgba(0, 0, 0, 0.053),
+        5.1px 8.6px 5.3px rgba(0, 0, 0, 0.077),
+        9.6px 16.3px 10px rgba(0, 0, 0, 0.095),
+        17.2px 29px 17.9px rgba(0, 0, 0, 0.113),
+        32.2px 54.3px 33.4px rgba(0, 0, 0, 0.137),
+        77px 130px 80px rgba(0, 0, 0, 0.19);
+}
+
+.ListDiv ul li .check {
+    cursor: pointer;
+    height: 1em;
+    width: 1em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid 2px #82f606;
+
+}
+
+
+.ListDiv ul li .spanText {
+    flex: 1;
+    width: 10rem;
+    word-wrap: break-word;
+    margin: 0.5em 0em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cutText {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.653);
+}
+
+
+.ListDiv ul li .delete {
+    margin: .5em;
+}
+
+.ListDiv ul li .delete img {
+    width: 1.3em;
+    cursor: pointer;
+}
