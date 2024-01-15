@@ -145,6 +145,6 @@ body {
 }
 
 .checked {
-    content: url('/images/check-Mark2.png');
+    content: url('images/check-Mark2.png');
     
 }
