@@ -1,0 +1,114 @@
+/* <- ----------------------------------- Making webbApp Responsive -------------------------- -> */
+
+@media (max-width:400px) {
+ 
+    .heading {
+        margin-top: 15em;
+        font-size: small;
+    }
+
+    .mainTAB {
+        width: 80vw;
+        min-height: 400px;
+        margin-top: 3em;
+        padding: 1em;
+    }
+
+    .inputDiv {
+        margin-top: 2em;
+        display: flex;
+        justify-content: space-between;
+        height: 2em;
+        width: 20em;
+        padding: 1em;    
+    }
+
+    .inputDiv input { 
+        border-radius: 30px;
+        padding: 0 1em;
+        margin-right: 1em;
+    }
+
+    .inputDiv button {
+        border-radius: 30px;
+        padding: 0 1em;
+        font-size: x-small;
+    }
+
+
+
+    .ListDiv {
+        
+        min-height: 200px;
+        width: 18em;
+        padding: 1em;
+        margin: 1.5em 0em;
+       
+    }
+}
+
+@media (min-width:401px) and (max-width:810px){
+.heading {
+        margin-top: 7em;
+        font-size: medium;
+    }
+
+    .mainTAB {
+        width: 60vw;
+        min-height: 400px;
+        margin-top: 3em;
+        padding: 1em;
+    }
+
+    .inputDiv {
+        margin-top: 2em;
+        display: flex;
+        justify-content: space-between;
+        height: 2em;
+        width: 20em;
+        padding: 1em;
+    }
+
+    .inputDiv input {
+        border-radius: 30px;
+        padding: 0 1em;
+        margin-right: 1em;
+    }
+
+    .inputDiv button {
+        border-radius: 30px;
+        padding: 0 1em;
+        font-size: x-small;
+    }
+
+
+
+    .ListDiv {
+
+        min-height: 200px;
+        width: 18em;
+        padding: 1em;
+        margin: 1.5em 0em;
+
+    }
+}
+@media (min-width:811px) and (max-width:1100px) {
+    .heading {
+        margin-top: 7em;
+        font-size: large;
+    }
+
+    .mainTAB {
+        width: 60vw;
+        min-height: 400px;
+        margin-top: 2em;
+        padding: 3em;
+    }
+ .ListDiv {
+     min-height: 200px;
+     width: 18em;
+     padding: 1em;
+     margin: .5em 0em;
+
+ }
+}

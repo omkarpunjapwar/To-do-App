@@ -11,6 +11,7 @@ function Addlist() {
     let listItemText = input.value;
     // console.log(listItemText);
     // console.log("inside the event function..");
+
     // ------------adding list--------
     if (listItemText.trim() !== "") {
       var listItem = document.createElement("li");
@@ -31,14 +32,27 @@ function Addlist() {
       ul.appendChild(listItem);
       // console.log("you'r li is ready", listItem);
       input.value = "";
-
-      // for deletion of listItem-----------------
+      // To check_mark the class-------------- ->
+      checkSpan.addEventListener("click", () => {
+        console.log("clicked on check");
+        if (
+          checkSpan.classList.contains("checked") &&
+          textSpan.classList.contains("cutText")
+        ) {
+          checkSpan.classList.remove("checked");
+          textSpan.classList.remove("cutText");
+        } else {
+          checkSpan.classList.add("checked");
+          textSpan.classList.add("cutText");
+        }
+      });
+      // for deletion of listItem---------------- ->
       deleteSpan.addEventListener("click", () => {
         // console.log("delete working");
         listItem.remove();
       });
     } else {
-      alert("you must write somthing first!");
+      alert("you must write something first!");
     }
   });
 }
