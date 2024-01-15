@@ -3,15 +3,15 @@
 @media (max-width:400px) {
  
     .heading {
-        margin-top: 15em;
-        font-size: small;
+        margin-top: 8em;
+        font-size: medium;
     }
 
     .mainTAB {
         width: 80vw;
         min-height: 400px;
-        margin-top: 3em;
-        padding: 1em;
+        margin-top: 2em;
+        padding: 1.3em;
     }
 
     .inputDiv {
@@ -31,7 +31,7 @@
 
     .inputDiv button {
         border-radius: 30px;
-        padding: 0 1em;
+        padding: 0 .5em;
         font-size: x-small;
     }
 
