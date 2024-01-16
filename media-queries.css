@@ -7,10 +7,6 @@
         font-size: medium;
     }
 
-    body {
-        background-image: url("images/bg2-vertical.png");
-        background-size: 100vh;
-    }
 
     .heading {
         margin-top: 0;
@@ -60,10 +56,7 @@
 }
 
 @media (min-width:401px) and (max-width:810px) {
-    body {
-        background-image: url("images/bg2-vertical.png");
-        background-size: 100vh;
-    }
+   
 
     .heading {
         margin-top: 0;
@@ -113,10 +106,7 @@
 }
 
 @media (min-width:811px) and (max-width:1100px) {
-    body{
-        background-image: url("images/bg2-vertical.png");
-        background-size: 100vw;
-    }
+   
     .heading {
         margin-top: 0em;
         font-size: large;

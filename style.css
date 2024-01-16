@@ -4,9 +4,7 @@
 }
 
 body {
-    background-image: url("images/bg-2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
+   background: #2e3440;
 }
 
 #bg-blurDiv {
@@ -47,6 +45,17 @@ body {
         77px 130px 80px rgba(0, 0, 0, 0.19);
     border: 1px solid rgba(255, 255, 255, 0.16);    
     border-radius: 30px;
+}
+.mainTAB::before{
+    content: "";
+    margin-left: -20em;
+    position: absolute;
+    margin-top: 1em;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    filter: blur(80px);
 }
 
 .inputDiv {
