@@ -58,7 +58,7 @@ body {
     padding: .5em .5em;
     border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 30px;
-    background: rgba(250, 249, 249, 0.169);
+    background: rgba(35, 35, 35, 0.169);
     backdrop-filter: blur(20px);
 }
 
@@ -112,7 +112,7 @@ body {
     align-items: center;
     width: auto;
     height: auto;
-    background: rgba(255, 255, 255, 0.169);
+    background: rgba(35, 35, 35, 0.169);
     backdrop-filter: blur(20px);
 
     border-radius: 30px;
